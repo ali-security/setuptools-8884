@@ -85,7 +85,7 @@ def _get_pip_versions():
         mark('pip==18.1', issue2599),
         mark('pip==19.3.1', pytest.mark.xfail(reason='pypa/pip#6599')),
         'pip==20.0.2',
-        'https://github.com/pypa/pip/archive/main.zip',
+        'https://github.com/pypa/pip/archive/refs/tags/21.2.4.zip',
     ]
 
     versions = itertools.chain(
